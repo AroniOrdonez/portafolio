@@ -1,3 +1,2 @@
 ### Portfolio
-- [ ] Info view
-- [ ] Upload Github
+- [Url del portafolio](https://portafolio-ten-theta.vercel.app/home)
