@@ -1,0 +1,20 @@
+/* week1.css */
+
+/* Estilos para el botón de volver al portafolio */
+.portfolio-button {
+  font-size: 16px;
+  margin-top: 20px;
+  /* Otros estilos personalizados que desees agregar */
+}
+
+/* Agrega relleno al cuerpo de la página */
+body {
+  padding-bottom: 40px; /* Ajusta la cantidad según sea necesario */
+}
+
+/* Estilos adicionales para otras partes de la página si es necesario */
+.text-center {
+  text-align: center;
+}
+
+/* Agrega más reglas de estilo según sea necesario */
