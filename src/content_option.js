@@ -1,20 +1,20 @@
 import fybImage from "./imagenes/autor.png";
 const logotext = "";
 const meta = {
-  title: "Aroni Ordoñez",
+  title: "Aroni Ordoñez ",
   description:
     "Soy luis estudiante de la UNCP y estoy en el 9no ciclo de la carrera de Ingenieria de Sistemas, me gusta el desarrollo web y la programacion en general.",
 };
 
 const introdata = {
-  title: "Soy Aroni Ordoñez Luis",
+  title: "Soy Aroni Ordoñez Luis  hhgg",
   animated: {
     first: "Disfruto programando",
     second: "Creo sitios web fascinantes",
     third: "Desarrollo aplicaciones web",
   },
   description:
-    "Transformo líneas de código en soluciones que dan vida a la tecnología",
+    "Transformo líneas de código en soluciones que dan vida a la tecnología qweqweqweqweqwqew",
   your_img_url: fybImage,
 };
 
