@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25ac30fa.css",
+    "main.js": "/static/js/main.78d4a788.js",
+    "static/media/semana14-1.png": "/static/media/semana14-1.28c3577a184ff3a92444.png",
+    "static/media/semana6.png": "/static/media/semana6.76ea0221e6fdd4a78a80.png",
+    "static/media/semana10-1.png": "/static/media/semana10-1.2e371eaad306f066ad1e.png",
+    "static/media/autor.png": "/static/media/autor.eb44a78d8f896c1f0c30.png",
+    "static/media/semana9-1.png": "/static/media/semana9-1.6abaf39af22a1b4b4b54.png",
+    "static/media/semana2.jpg": "/static/media/semana2.cc42fa9456ac99ebe994.jpg",
+    "static/media/semana5-1.png": "/static/media/semana5-1.2d274df4dde04f25d8c5.png",
+    "static/media/fyb.png": "/static/media/fyb.b5d9d1963c0a93e3d2ff.png",
+    "static/media/semana4-1.png": "/static/media/semana4-1.909048363beb4c26d0dc.png",
+    "static/media/semana12-1.png": "/static/media/semana12-1.fbeae8a5e42a12e56b25.png",
+    "static/media/semana11.jpg": "/static/media/semana11.b1ce6ad660f80db29938.jpg",
+    "static/media/semana6-1.png": "/static/media/semana6-1.98a57908e985d2f7dde9.png",
+    "static/media/semana2-1.png": "/static/media/semana2-1.6073c22c51127c2fe654.png",
+    "static/media/semana3.png": "/static/media/semana3.60685443b1ff70abe69f.png",
+    "static/media/semana1-1.png": "/static/media/semana1-1.7fb600c0eeac773f1117.png",
+    "static/media/semana13.jpg": "/static/media/semana13.1ec6b0649251439a7e76.jpg",
+    "static/media/semana3-1.png": "/static/media/semana3-1.e5385c6799c60531d20a.png",
+    "static/media/semana14.png": "/static/media/semana14.c9f3dfcd762e598b3640.png",
+    "static/media/semana11-1.png": "/static/media/semana11-1.aa0fdeb040fcf32d9ebd.png",
+    "static/media/semana4.png": "/static/media/semana4.2d2b15e2be2942248389.png",
+    "static/media/semana13-1.png": "/static/media/semana13-1.23798a66fad8c8a353cc.png",
+    "static/media/semana7-1.jpg": "/static/media/semana7-1.48e3720dfd62f03f0ea7.jpg",
+    "static/media/semana15-1.jpeg": "/static/media/semana15-1.232ba21bdc50902b15e0.jpeg",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.25ac30fa.css",
+    "static/js/main.78d4a788.js"
+  ]
+}
