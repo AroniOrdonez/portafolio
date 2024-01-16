@@ -1,84 +1,49 @@
-import React, { useState } from "react";
-import "./style.css";
-import { VscGrabber, VscClose } from "react-icons/vsc";
+import React from "react";
 import { Link } from "react-router-dom";
-import { logotext, socialprofils } from "../content_option";
+import { logotext } from "../content_option";
 import Themetoggle from "../components/themetoggle";
+import "./style.css"; // Asegúrate de importar tu hoja de estilos
 
-const Headermain = () => {
-  const [isActive, setActive] = useState("false");
-
-  const handleToggle = () => {
-    setActive(!isActive);
-    document.body.classList.toggle("ovhidden");
-  };
-
+const Navbar = () => {
   return (
-    <>
-      <header className="fixed-top site__header">
-        <div className="d-flex align-items-center justify-content-between">
+    <header className="fixed-top site__header">
+      <div className="d-flex align-items-center justify-content-between">
+        <div className="d-flex align-items-center">
           <Link className="navbar-brand nav_ac" to="/">
             {logotext}
           </Link>
-          <div className="d-flex align-items-center">
-            <Themetoggle />
-            <button className="menu__button  nav_ac" onClick={handleToggle}>
-              {!isActive ? <VscClose /> : <VscGrabber />}
-            </button>
-          </div>
+          <Themetoggle />
         </div>
-
-        <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
-          <div className="bg__menu h-100">
-            <div className="menu__wrapper">
-              <div className="menu__container p-3">
-                <ul className="the_menu">
-                  <li className="menu_item ">
-                    <Link onClick={handleToggle} to="/" className="my-3">
-                      Home
-                    </Link>
-                  </li>
-                  <li className="menu_item">
-                    <Link
-                      onClick={handleToggle}
-                      to="/portfolio"
-                      className="my-3"
-                    >
-                      {" "}
-                      Portafolio
-                    </Link>
-                  </li>
-                  <li className="menu_item">
-                    <Link onClick={handleToggle} to="/about" className="my-3">
-                      Acerca de mi
-                    </Link>
-                  </li>
-                  <li className="menu_item">
-                    <Link onClick={handleToggle} to="/contact" className="my-3">
-                      {" "}
-                      Contacteme
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
+        <nav>
+          {/* Nuevo contenedor con fondo negro */}
+          <div className="nav-links-container">
+            <ul className="main__menu_ul">
+              <li className="nav-item">
+                <Link to="/" className="nav-link">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/about" className="nav-link">
+                  Acerca de mi
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/portfolio" className="nav-link">
+                  Portafolio
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/contact" className="nav-link">
+                  Contactame
+                </Link>
+              </li>
+            </ul>
           </div>
-          <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
-            <div className="d-flex">
-              <a href={socialprofils.facebook}>Facebook</a>
-              <a href={socialprofils.github}>Github</a>
-              <a href={socialprofils.twitter}>Twitter</a>
-            </div>
-            <p className="copyright m-0">copyright __ {logotext}</p>
-          </div>
-        </div>
-      </header>
-      <div className="br-top"></div>
-      <div className="br-bottom"></div>
-      <div className="br-left"></div>
-      <div className="br-right"></div>
-    </>
+        </nav>
+      </div>
+    </header>
   );
 };
 
-export default Headermain;
+export default Navbar;

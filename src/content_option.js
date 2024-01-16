@@ -1,4 +1,18 @@
 import fybImage from "./imagenes/autor.png";
+import s1 from "./imagenes/s1.jpg";
+import s2 from "./imagenes/s2.jpeg";
+import s3 from "./imagenes/s3.jpg";
+import s4 from "./imagenes/s4.jpg";
+import s5 from "./imagenes/s5.jpg";
+import s6 from "./imagenes/s6.jpg";
+import s7 from "./imagenes/s7.jpg";
+import s9 from "./imagenes/s9.png";
+import s10 from "./imagenes/s10.jpg";
+import s11 from "./imagenes/s11.jpg";
+import s12 from "./imagenes/s12.jpg";
+import s13 from "./imagenes/s13.jpg";
+import s14 from "./imagenes/s14.jpg";
+import s15 from "./imagenes/s15.jpg";
 const logotext = "";
 const meta = {
   title: "Aroni Ordoñez ",
@@ -7,21 +21,21 @@ const meta = {
 };
 
 const introdata = {
-  title: "Soy Aroni Ordoñez Luis  hhgg",
+  title: "Soy Aroni Ordoñez Luis ",
   animated: {
     first: "Disfruto programando",
     second: "Creo sitios web fascinantes",
     third: "Desarrollo aplicaciones web",
   },
   description:
-    "Transformo líneas de código en soluciones que dan vida a la tecnología qweqweqweqweqwqew",
+    "Transformo líneas de código en soluciones que dan vida a la tecnología web.",
   your_img_url: fybImage,
 };
 
 const dataabout = {
-  title: "abit about my self",
+  title: "Un poco sobre mi mismo",
   aboutme:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    "Estudiante de Ingeniería de Sistemas en la Universidad Nacional del Centro del Perú, apasionado por el aprendizaje continuo. Busco oportunidades para expandir mis conocimientos, especialmente en desarrollo de software y tecnologías de la información",
 };
 const worktimeline = [
   {
@@ -47,20 +61,17 @@ const skills = [
     value: 90,
   },
   {
-    name: "Djano",
-    value: 85,
-  },
-  {
-    name: "Javascript",
-    value: 80,
-  },
-  {
     name: "React",
     value: 60,
   },
   {
+    name: "Javascript",
+    value: 70,
+  },
+
+  {
     name: "Jquery",
-    value: 85,
+    value: 42,
   },
 ];
 
@@ -84,75 +95,93 @@ const services = [
 
 const dataportfolio = [
   {
-    img: "https://picsum.photos/400/?grayscale",
-    description: "SEMANA 1",
+    img: s1,
+    description: "SEMANA 1 ",
+    title: "FUNDAMENTOS DE LA TECNOLOGÍA WEB",
     link: "/portfolio/week/week1",
   },
   {
-    img: "https://picsum.photos/400/800/?grayscale",
+    img: s2,
     description: "SEMANA 2",
+    title: "HTML Y XML COMO LENGUAJES MARCADOS PARA LA WEB",
     link: "/portfolio/week/week2",
   },
   {
-    img: "https://picsum.photos/400/?grayscale",
+    img: s3,
     description: "SEMANA 3",
     link: "/portfolio/week/week3",
+    title: "PROFUNDIZANDO EN FLEXBOX Y GRID LAYOUT CON CSS PURO",
   },
   {
-    img: "https://picsum.photos/400/600/?grayscale",
+    img: s4,
     description: "SEMANA 4",
     link: "/portfolio/week/week4",
+    title: "DESARROLLO WEB DINÁMICO CON JAVASCRIPT, DOM Y CANVAS",
   },
   {
-    img: "https://picsum.photos/400/300/?grayscale",
+    img: s5,
     description: "SEMANA 5",
     link: "/portfolio/week/week5",
+    title: "DESARROLLO FRONTEND: SPAS, REACT, SASS Y NEXT.JS",
   },
   {
-    img: "https://picsum.photos/400/700/?grayscale",
+    img: s6,
     description: "SEMANA 6",
     link: "/portfolio/week/week6",
+    title:
+      "EXPLORANDO EVENTOS, CONDICIONALES Y BUCLES CON FRAMEWORKS JAVASCRIPT",
   },
   {
-    img: "https://picsum.photos/400/700/?grayscale",
+    img: s7,
     description: "SEMANA 7",
     link: "/portfolio/week/week7",
+    title: "EXPLORANDO LOS HOOKS EN REACT",
   },
 
   {
-    img: "https://picsum.photos/400/600/?grayscale",
+    img: s9,
     description: "SEMANA 9",
     link: "/portfolio/week/week9",
+    title: "NEXT.JS Y TYPESCRIPT,CSR/SSR, CREACIÓN DE PROYECTO Y ESTILOS",
   },
   {
-    img: "https://picsum.photos/400/300/?grayscale",
+    img: s10,
     description: "SEMANA 10",
     link: "/portfolio/week/week10",
+    title: "API EN NEXT.JS,CSR/SSR, ESTILOS, FORMULARIOS Y TYPESCRIPT",
   },
   {
-    img: "https://picsum.photos/400/?grayscale",
+    img: s11,
     description: "SEMANA 11",
     link: "/portfolio/week/week11",
+    title:
+      "FORMULARIO CON NEXT.JS: SERVER SIDE PROPS, NEXT AUTH, INSTALACIÓN Y CONFIGURACIÓN",
   },
   {
-    img: "https://picsum.photos/400/550/?grayscale",
+    img: s12,
     description: "SEMANA 12",
     link: "/portfolio/week/week12",
+    title: "CONSUMO DE API DE POKÉMON CON REACT: UTILIZANDO JSON Y USEEFFECT",
   },
   {
-    img: "https://picsum.photos/400/?grayscale",
+    img: s13,
     description: "SEMANA 13",
     link: "/portfolio/week/week13",
+    title: "DESARROLLO DE CRUD DE USUARIOS EN REACT",
   },
   {
-    img: "https://picsum.photos/400/700/?grayscale",
+    img: s14,
     description: "SEMANA 14",
     link: "/portfolio/week/week14",
+    title:
+      "CONSTRUYENDO UNA API DE MARVEL CON ENCRIPTACIÓN: DESAFÍOS Y APRENDIZAJES",
   },
   {
-    img: "https://picsum.photos/400/700/?grayscale",
+    img: s15,
     description: "SEMANA 15",
     link: "/portfolio/week/week15",
+    title:
+      "EXPLORANDO EL DESARROLLO FULL STACK CON SPRING BOOT DESDE LA ARQUITECTURA BACKEND HASTA LA IMPLEMENTACIÓN DE CRUD Y AUTENTICACIÓN",
   },
 ];
 

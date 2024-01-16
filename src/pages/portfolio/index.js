@@ -14,16 +14,17 @@ export const Portfolio = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
-          <Col lg="12">
-            <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
-            <hr className="t_border my-4 ml-0 text-left" />
+          <Col lg="12" className="text-center">
+            <h1 className="display-4 mb-4">PORTAFOLIO</h1>
+            <hr className="t_border my-4 ml-0 text-center" />
           </Col>
         </Row>
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => (
             <div key={i} className="po_item">
               <div className="content">
-                <p>{data.description}</p>
+                <h1>{data.description}</h1>
+                <p>{data.title}</p>
                 <a href={data.link}>Ver Proyecto</a>
               </div>
               <img src={data.img} alt="" />
